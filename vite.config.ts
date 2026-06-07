@@ -247,7 +247,7 @@ baseContent: ${JSON.stringify(body.baseContent ?? {}, null, 2)}
 
 /**
  * GitHub Pages 배포 시 자산 경로 보정.
- *  - https://hopeman-ai.github.io/m-ax-brief/ 하위에 서빙되므로 prod 빌드는 base="/m-ax-brief/" 사용.
+ *  - https://gommilab.github.io/m-ax-brief/ 하위에 서빙되므로 prod 빌드는 base="/m-ax-brief/" 사용.
  *  - dev 서버는 root 에서 동작해야 편하므로 그대로 base="/".
  */
 const PROD_BASE = "/m-ax-brief/";
